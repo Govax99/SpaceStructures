@@ -1,0 +1,32 @@
+THIS IS AN EXAMPLE GUIDE:
+
+
+ELEMENT
+model: truss %you must put model or shape functions
+type: axial
+EA: 1e5
+length: 1000
+shape functions: [ (1-x/l) x/l] %not needed if you put model
+global index: [4 5]
+inclination: 30
+
+ELEMENT
+model: beam %you must put model or shape functions
+type: bending
+EJ: 1e7
+length: 1000
+global index: [1 2 0 0]
+
+FORCE
+type: concentrated
+index: 4 %index or element -> depends on if distributed or concentrated
+value: 7
+
+FORCE
+type: distributed
+element: 1
+shape: 3*(x/1000)
+
+SPRING
+index: 1
+k: 3000

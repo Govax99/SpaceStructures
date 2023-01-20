@@ -1,0 +1,132 @@
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2540
+global index: [0 1]
+
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2540
+global index: [1 5]
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2540
+global index: [5 9]
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2540
+global index: [9 0]
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 3810
+global index: [1 2 3 4]
+inclination: 90
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 5080
+global index: [5 6 7 8]
+inclination: 90
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 3810
+global index: [9 10 11 12]
+inclination: 90
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 4579.05
+global index: [0 0 3 4]
+inclination: 56.31
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 4579.05
+global index: [5 6 3 4]
+inclination: 123.69
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 4579.05
+global index: [5 6 11 12]
+inclination: 56.31
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 4579.05
+global index: [0 0 11 12]
+inclination: 123.69
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 5679.613
+global index: [1 2 7 8]
+inclination: 63.435
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 5679.613
+global index: [9 10 7 8]
+inclination: 116.565
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2839.806
+global index: [3 4 7 8]
+inclination: 26.565
+
+ELEMENT
+model: truss
+type: axial
+EA: 2e6
+length: 2839.806
+global index: [11 12 7 8]
+inclination: 153.435
+
+FORCE
+type: concentrated
+index: 4
+value: -35
+
+FORCE
+type: concentrated
+index: 8
+value: -35
+
+FORCE
+type: concentrated
+index: 12
+value: -35
